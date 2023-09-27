@@ -4,7 +4,7 @@ local L = LANG.CreateLanguage("Türkçe")
 L["innocent"] = "Masum"
 L["detective"] = "Dedektif"
 L["traitor"] = "Hain"
-L["spectator"] = "Spectator"
+L["spectator"] = "İzleyici"
 
 -- Additional phrases
 L["this_round_has"] = "Bu rauntta"
