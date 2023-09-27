@@ -1,3 +1,5 @@
+-- Translation by Matt STEAM URL: https://steamcommunity.com/profiles/76561198443702005
+
 local L = LANG.CreateLanguage("Türkçe")
 
 -- Role names
@@ -11,11 +13,12 @@ L["this_round_has"] = "Bu rauntta"
 L["round_name"] = " "
 L["round_and"] = " ve "
 
-L["symbol"]= ": "
-L["symbol2"]= "s"
-L["symbol3"]= ","
-L["symbol4"]= "."
-L["symbol5"]= ""
+L["symbol"] = ": "
+L["symbol2"] = "s"
+L["symbol3"] = ","
+L["symbol4"] = "."
+L["symbol5"] = ""
+
 L["round_player_info"] = "Bu raunttaki rol dağılımı"
 L["innocent"] = "Masum"
 L["traitor"] = "Hain"
@@ -29,4 +32,3 @@ L["color_spectator"] = Color(255, 255, 0, 255)
 
 -- Save the language
 LANG.AddToLanguage("Türkçe", L)
--- Translation by Matt STEAM URL: https://steamcommunity.com/profiles/76561198443702005
