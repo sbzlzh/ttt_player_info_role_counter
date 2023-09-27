@@ -6,6 +6,7 @@ if not isTerrorTown then
         isTerrorTown = gm.Name == "Trouble in Terrorist Town"
     end
 end
+
 if isTerrorTown then
     local ROLE_INNOCENT = 0
     local ROLE_TRAITOR = 1
