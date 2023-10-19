@@ -1,13 +1,6 @@
-local isTerrorTown = engine.ActiveGamemode() == "terrortown"
+include("check.lua")
 
-if not isTerrorTown then
-    local gm = gmod.GetGamemode()
-    if gm then
-        isTerrorTown = gm.Name == "Trouble in Terrorist Town"
-    end
-end
-
-if isTerrorTown then
+if IsTerrorTown() then
     if SERVER then
         util.AddNetworkString("TTT_RoleCount_Start")
         util.AddNetworkString("TTT_RoundEndInfo")
