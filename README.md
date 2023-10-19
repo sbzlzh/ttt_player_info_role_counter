@@ -1,4 +1,4 @@
-# TTT-Player-Info-Role-Counter
+## TTT-Player-Info-Role-Counter
 
 Fixed missing Type and Base keys!
 NOTE: This Addon only works for the "Trouble in Terrorist Town" - Gamemode.
